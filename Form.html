@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Form </title>
+	</head>
+
+	<body>
+		<form>
+			<datalist id="name">
+				<option value="Aubdur Rob Anik"> Aubdur Rob Anik </option>
+				<option value="Anik Das"> Anik Das </option>
+				<option value="Arpita Das"> Arpita Das </option>			
+				<option value="Jafrin Akter"> Jafrin Akter </option>
+			</datalist>
+			
+			<datalist id="email">
+				<option value="aubdurrob1331@gmail.com"> aubdurrob1331@gmail.com </option>
+				<option value="anik13331@gmail.com"> anik13331@gmail.com </option>
+				<option value="18101073@uap-bd.edu"> 18101073@uap-bd.edu </option>
+				<option value="18101070@uap-bd.edu"> 18101070@uap-bd.edu </option>
+			</datalist>
+
+			<h1> Registration Form </h1> 
+			<fieldset>
+				    <legend> Personal Information </legend>
+				    <b> Name : </b> <input type="text" name="textbox" size="30" list="name" placeholder="Full Name"> <br><br>
+
+				    <b> Email : </b> <input type="email" name="emailbox" size = "30" list="email" placeholder="Email Address"> <br><br>
+
+				    <b> Passowrd : </b> <input type="password" name="passbox" size="30" placeholder="Password"> <br><br>
+
+				    <b> Gender : </b> <input type="radio" name="gender" value="Male"> Male
+						      <input type="radio" name="gender" value="Female"> Female
+						      <input type="radio" name="gender" value="Other"> Other <br><br>
+
+				    <b> I am  : </b> <input type="checkbox" name="option" value="student"> Student
+						     <input type="checkbox" name="option" value="teacher"> Teacher <br><br>
+
+				    <b> Department </b>
+			 	    <select name="Department">
+			 			<option> CSE </option>
+			 			<option> EEE </option>
+			 			<option> BBA </option>
+			 	    </select> 
+				   
+			 	    <br><br>
+
+			 	    <b> Add Comment </b> <br>
+			 	    <textarea name="textbox" rows="10" cols="30">
+				
+			 	    </textarea> <br><br>
+				
+			            <input type="reset" value="Reset">
+        			    <input type="submit" value="Submit">
+			</fieldset>
+		</form>
+	</body>
+</html>
